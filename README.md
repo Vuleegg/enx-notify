@@ -19,3 +19,12 @@
 
 ```plaintext
 start enx-notify
+
+```example 
+exports['enx-notify']:SendAlert({
+    title = "ENX Roleplay",
+    description = "Welcome to ENX Roleplay!",
+    position = "top-center",
+    icon = "fa-solid fa-bullhorn",
+    type = "obavestenje"
+})
