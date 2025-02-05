@@ -15,10 +15,10 @@
 
 ### Client-Side:
 1. Download the `enx-notify` resource and place it in your `resources` folder.
-2. Add the following line to your `server.cfg`:
+2. Add the following line to your `server.cfg`:start enx-notify
 
 ```plaintext
-start enx-notify
+
 
 ```example 
 exports['enx-notify']:SendAlert({
